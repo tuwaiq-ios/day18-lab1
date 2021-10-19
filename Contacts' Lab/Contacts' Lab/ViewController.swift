@@ -29,7 +29,7 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Contacts"
+        
         let tabelView = UITableView()
         tabelView.dataSource = self
         tabelView.delegate = self
