@@ -27,7 +27,7 @@ class Cell: UITableViewCell {
         self.addSubview(imagecell)
         
         NSLayoutConstraint.activate([imagecell.rightAnchor.constraint(equalTo: rightAnchor),
-        imagecell.heightAnchor.constraint(equalToConstant: 80),
+        imagecell.heightAnchor.constraint(equalToConstant: 40),
         imagecell.widthAnchor.constraint(equalTo: imagecell.heightAnchor,multiplier: 100/100)])
         namecell.text = "kkkk"
         namecell.translatesAutoresizingMaskIntoConstraints = false
@@ -41,8 +41,10 @@ class Cell: UITableViewCell {
     }
 
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
+    
+
 }
     
 

@@ -12,7 +12,6 @@
 		680FC395271F27290067003E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FC394271F27290067003E /* ViewController.swift */; };
 		680FC39A271F272B0067003E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680FC399271F272B0067003E /* Assets.xcassets */; };
 		680FC39D271F272B0067003E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680FC39B271F272B0067003E /* LaunchScreen.storyboard */; };
-		680FC3A7271F3DD90067003E /* extension UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FC3A6271F3DD90067003E /* extension UIView.swift */; };
 		680FC3A9271F4D9A0067003E /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FC3A8271F4D9A0067003E /* cell.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		680FC399271F272B0067003E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		680FC39C271F272B0067003E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		680FC39E271F272B0067003E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		680FC3A6271F3DD90067003E /* extension UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension UIView.swift"; sourceTree = "<group>"; };
 		680FC3A8271F4D9A0067003E /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 				680FC390271F27290067003E /* AppDelegate.swift */,
 				680FC392271F27290067003E /* SceneDelegate.swift */,
 				680FC394271F27290067003E /* ViewController.swift */,
-				680FC3A6271F3DD90067003E /* extension UIView.swift */,
 				680FC3A8271F4D9A0067003E /* cell.swift */,
 				680FC399271F272B0067003E /* Assets.xcassets */,
 				680FC39B271F272B0067003E /* LaunchScreen.storyboard */,
@@ -142,7 +139,6 @@
 			files = (
 				680FC3A9271F4D9A0067003E /* cell.swift in Sources */,
 				680FC395271F27290067003E /* ViewController.swift in Sources */,
-				680FC3A7271F3DD90067003E /* extension UIView.swift in Sources */,
 				680FC391271F27290067003E /* AppDelegate.swift in Sources */,
 				680FC393271F27290067003E /* SceneDelegate.swift in Sources */,
 			);

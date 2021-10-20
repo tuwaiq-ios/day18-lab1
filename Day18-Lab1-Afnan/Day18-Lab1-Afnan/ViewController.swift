@@ -17,17 +17,17 @@ var CallList = [
     call(personimage: "girl1", personname: "Sara"),
     call(personimage: "boy", personname: "Ahmad"),
     call(personimage: "girl2", personname: "Atheer"),
-    call(personimage: "boy1", personname: "Waleed"),
-    call(personimage: "girl3", personname: "Sana"),
-    call(personimage: "boy2", personname: "Mohammed")
+    call(personimage: "boy3", personname: "Waleed"),
+    call(personimage: "girl4", personname: "Sana"),
+    call(personimage: "boy4", personname: "Aziz")
 
 ]
 
-var Names: Array<call> = [ ]
+//var Names: Array<call> = [ ]
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var Names: Array<call> = [ ]
+//    var Names: Array<call> = [ ]
     
     let tableView: UITableView = {
         
@@ -37,7 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             tabelView.rowHeight = 80
             tabelView.translatesAutoresizingMaskIntoConstraints = false
 
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        table.register(Cell.self, forCellReuseIdentifier: "cell")
         
         return table
     }()
@@ -62,8 +62,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! Cell
         let List = CallList[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! Cell 
+      
        
         cell.imagecell.image = UIImage(named: List.personimage)
         cell.namecell.text = List.personname
